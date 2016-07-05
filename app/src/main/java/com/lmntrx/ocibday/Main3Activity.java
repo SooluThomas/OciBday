@@ -16,6 +16,6 @@ public class Main3Activity extends AppCompatActivity {
     public void NewActivity2(View view) {
         Intent myIntent = new Intent(this,Main4Activity.class);
         startActivity(myIntent);
-        //finish();
+        finish();
     }
 }

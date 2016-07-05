@@ -18,6 +18,6 @@ public class Main2Activity extends AppCompatActivity {
 
         Intent myIntent = new Intent(this,Main3Activity.class);
         startActivity(myIntent);
-        //finish();
+        finish();
     }
 }

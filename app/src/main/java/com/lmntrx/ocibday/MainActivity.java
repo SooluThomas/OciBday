@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         myplayer.start();
         Intent myIntent = new Intent(this,Main2Activity.class);
         startActivity(myIntent);
-        //finish();
+        finish();
     }
 
 
